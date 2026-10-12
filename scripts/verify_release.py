@@ -57,7 +57,15 @@ EXPECTED_SOURCES = {
         ("repro/CLEAN_DETECTOR_50_SUMMARY.md", "c5c1a0e9f8783809fdbb8f862b802d4a9ad125b0"),
     ],
     "results/caption_embedding/summary.csv": [("repro/level-max/campaign-c/CAMPAIGN_C_FINAL_CLOSURE.json", "bdd95c871cf2294fa300c75cade1b62c3529c2a5")],
+    "results/transformation_robustness/summary.csv": [("repro/TRANSFORM_ROBUSTNESS_30_REPORT.md", "7e1e7b7cc6f0c3a63855e960f6b461ea31e6bb13")],
+    "results/cat_attack/summary.csv": [("repro/CAT_ATTACK_30_REPORT.md", "6abe800ad310fe4c0500accf1aca13d49d6b4908")],
+    "results/generation_quality/summary.json": [("repro/GENERATION_QUALITY_ANALYSIS.json", "6a95fe1a6c412a642ac89492d548cac31571166c")],
     "results/semantic_angle/coverage.json": [("repro/level-max/campaign-a/CAMPAIGN_A_RESULT.json", "d3cf248a2279e238ac660ff0d2c3a62db95e5872")],
+    "provenance/claim_outcomes.csv": [("repro/level-max/CANONICAL_STATE_SNAPSHOT_d855949898275847de290806da075d0fe7efe3f9f4ad320553a2891338f079cf.json", "1f2f7566e942f8b0e325824d10181f4f4c785fd5")],
+    "provenance/source_versions.json": [
+        ("repro/MODEL_MANIFEST.md", "2dfdbc4a9ab40c0b7715d253ee1c1f5deb39f0b9"),
+        ("repro/REMAINING_CLAIMS_MODEL_MANIFEST.md", "4acd3b75d5b625f80017597233d89abda4ce6be3"),
+    ],
 }
 
 
@@ -107,6 +115,16 @@ def verify_manifest(root: Path, errors: list[str]) -> int:
         if not isinstance(item.get("SOURCES"), list):
             errors.append(f"SOURCES is not an array: {item['PUBLIC_PATH']}")
     indexed = {item["PUBLIC_PATH"]: item for item in files}
+    expected_external_sources = {
+        pair for bindings in EXPECTED_SOURCES.values() for pair in bindings
+    }
+    actual_external_sources = {
+        (source.get("SOURCE_PATH"), source.get("SOURCE_GIT_BLOB_OR_SHA256"))
+        for item in files for source in item.get("SOURCES", [])
+        if source.get("SOURCE_REVISION") == "498d4b25446003260d9367c10b1fdb27eb9988a1"
+    }
+    require_equal(errors, "complete 12-source authority set", actual_external_sources, expected_external_sources)
+    require_equal(errors, "private archive source count", len(actual_external_sources), 12)
     for public_path, expected in EXPECTED_SOURCES.items():
         actual = [(source.get("SOURCE_PATH"), source.get("SOURCE_GIT_BLOB_OR_SHA256")) for source in indexed.get(public_path, {}).get("SOURCES", [])]
         require_equal(errors, f"source binding {public_path}", actual, expected)

@@ -1,6 +1,6 @@
 # Independent Reproduction of SEAL
 
-This private candidate documents an independent reproduction of **SEAL: Semantic Aware Image Watermarking** by Kasra Arabi, R. Teal Witter, Chinmay Hegde, and Niv Cohen (ICCV 2025). The reproduction maintainers do **not** claim to have invented SEAL.
+This private release candidate documents an independent reproduction of **SEAL: Semantic Aware Image Watermarking** by Kasra Arabi, R. Teal Witter, Chinmay Hegde, and Niv Cohen (ICCV 2025). The reproduction maintainers do **not** claim to have invented SEAL. Public release is neither complete nor authorized.
 
 - Original paper: <https://openaccess.thecvf.com/content/ICCV2025/html/Arabi_SEAL_Semantic_Aware_Image_Watermarking_ICCV_2025_paper.html>
 - Original implementation: <https://github.com/Kasraarabi/SEAL>, pinned for this study at `92d31b31b93a6e373fe88a584c640beafb68c6fa`
@@ -10,7 +10,7 @@ This repository is not a fork and contains no copied SEAL source code, model wei
 
 ## Scope and headline findings
 
-The package records the final state of 31 claims. Seven claims were empirically evaluated: caption/embedding was **REPRODUCED**; transformation robustness, three CAT-attack claims, Stable-Diffusion-Prompts generation quality, and the semantic-angle curve were **INCONCLUSIVE** under the frozen decision rules. Other claims are analytical, non-evaluable, or blocked because required public protocols/assets are unavailable. `BLOCKED` means not executable from current public authority; it does not mean experimentally disproved.
+The package records the final state of 31 scientific claims plus one supporting clean-detector result. Seven claims were empirically evaluated: caption/embedding was **REPRODUCED**; transformation robustness, three CAT-attack claims, Stable-Diffusion-Prompts generation quality, and the semantic-angle curve were **INCONCLUSIVE** under the frozen decision rules. Other claims are analytical, non-evaluable, or blocked because required public protocols/assets are unavailable. `BLOCKED` means not executable from current public authority; it does not mean experimentally disproved.
 
 The clean detector was also evaluated as a supporting result. Frozen held-out and confirmatory stages each achieved image-level ROC-AUC 0.90, with no observed false positives in their respective controls. Calibration AUC 1.00 is not an independent test.
 
