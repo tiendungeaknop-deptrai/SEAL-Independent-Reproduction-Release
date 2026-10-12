@@ -1,6 +1,6 @@
 # Independent Reproduction of SEAL
 
-This private release candidate documents an independent reproduction of **SEAL: Semantic Aware Image Watermarking** by Kasra Arabi, R. Teal Witter, Chinmay Hegde, and Niv Cohen (ICCV 2025). The reproduction maintainers do **not** claim to have invented SEAL. Public release is neither complete nor authorized.
+This repository documents an independent reproduction of **SEAL: Semantic Aware Image Watermarking** by Kasra Arabi, R. Teal Witter, Chinmay Hegde, and Niv Cohen (ICCV 2025). The reproduction maintainers do **not** claim to have invented SEAL.
 
 - Original paper: <https://openaccess.thecvf.com/content/ICCV2025/html/Arabi_SEAL_Semantic_Aware_Image_Watermarking_ICCV_2025_paper.html>
 - Original implementation: <https://github.com/Kasraarabi/SEAL>, pinned for this study at `92d31b31b93a6e373fe88a584c640beafb68c6fa`
@@ -25,9 +25,11 @@ The clean detector was also evaluated as a supporting result. Frozen held-out an
 
 ## Reproducibility levels
 
-- **Level A — publicly replayable:** distributed record-level data and analysis are sufficient to recompute the result. This candidate contains no Level A scientific result.
+- **Level A — publicly replayable:** distributed record-level data and analysis are sufficient to recompute the result. This package contains no Level A scientific result.
 - **Level B — traceable, not publicly replayable:** checked summaries, exact source bindings, methods, and hashes are present, but record-level inputs remain private or cannot be redistributed.
 - **Level C — not independently executable or evaluable:** current public source or protocol is insufficient.
+
+The reproducibility inventory has 32 entries: eight Level B entries, including the supporting clean detector, and 24 Level C entries. The canonical claim census contains 31 claims.
 
 The verification command validates released bytes and frozen metadata; it does not rerun Stable Diffusion, SEAL, or the original experiments:
 
@@ -50,7 +52,7 @@ Please cite the original SEAL paper for the method. No `CITATION.cff` is supplie
 | Three original Python scripts in `scripts/` | [MIT](LICENSES/MIT.txt) |
 | Original documentation, SVG figures, aggregate result compilations and structured metadata | [CC BY 4.0](LICENSES/CC-BY-4.0.txt), only to the extent rights are held by the project owner |
 
-See [LICENSE_SCOPE.md](LICENSE_SCOPE.md) for exact path coverage, attribution and exclusions, and [licensing review](provenance/licensing_review.md) for the provenance audit. Individual scientific facts are not claimed as exclusive property. These licenses do not cover upstream SEAL or third-party assets. Public visibility and paper link insertion remain on hold.
+See [LICENSE_SCOPE.md](LICENSE_SCOPE.md) for exact path coverage, attribution and exclusions, and [licensing review](provenance/licensing_review.md) for the provenance audit. Individual scientific facts are not claimed as exclusive property. These licenses do not cover upstream SEAL or third-party assets.
 
 ## Limitations
 

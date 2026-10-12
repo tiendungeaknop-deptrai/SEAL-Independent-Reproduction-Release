@@ -3,7 +3,7 @@
 ## Owner declaration and authorization
 
 On 2026-10-12, the repository owner declared that the project was conducted
-and directed by the owner with AI assistance from CO1/CO2 and that no other
+and directed by the owner with AI assistance and that no other
 human research contributor participated in creating the independent package.
 The owner authorized MIT for the three original scripts and CC BY 4.0 for
 original documentation, SVG figures, aggregate compilations and structured
@@ -57,4 +57,4 @@ sources and to SEAL do not imply author endorsement. MultiSEAL material is
 excluded.
 
 Current licensing authority is this review, `LICENSE_SCOPE.md` and the owner's
-declaration. Public visibility and paper link insertion remain on hold.
+declaration.

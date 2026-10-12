@@ -4,7 +4,7 @@ Effective 2026-10-12, Tien Dung (`tiendungeaknop-deptrai`), the project owner,
 authorizes the following licenses for the independent reproduction package,
 only to the extent the owner holds the applicable rights. The owner declares
 that the project was conducted and directed by the owner with assistance from
-AI systems CO1/CO2 and that no other human research contributor participated
+AI systems and that no other human research contributor participated
 in creating this package. AI assistance is disclosed; this notice does not
 claim copyright in material that is not protectable.
 
@@ -34,6 +34,4 @@ results are not claims of ownership or endorsement by the original authors.
 
 No additional contributor approval remains pending for the included material
 covered by the owner's declaration and authorization. Rights to excluded
-upstream/third-party assets remain outside this grant. This licensing action
-does not authorize changing repository visibility or adding a paper link;
-both remain on hold.
+upstream/third-party assets remain outside this grant.

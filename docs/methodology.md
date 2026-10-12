@@ -4,5 +4,5 @@ The reproduction evaluated the public SEAL implementation at upstream commit `92
 
 Empirical claims were classified only under paper-defined or pre-result rules. Numerical proximity alone was not converted into success. Calibration data were separated from frozen-detector evaluation, paired observations retained their pairing, and image/source identity was the resampling or clustering unit where appropriate.
 
-The public candidate is a curation layer, not a new acquisition. Values were transcribed from exact frozen reports and normalized into compact tables. The 31-claim map preserves the final resolution state, outcome, fidelity, scale basis, and finality without importing the archive's operational governance documents.
+The package curates completed reproduction evidence. Values were transcribed from exact frozen reports and normalized into compact tables. The 31-claim map preserves the final resolution state, outcome, fidelity, scale basis, and finality without importing the archive's operational governance documents.
 

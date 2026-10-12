@@ -8,7 +8,7 @@ Requires Python 3.10 or newer and only the standard library.
 python scripts/verify_release.py
 ```
 
-The command checks the SHA-256 manifest, the exact 31-claim identity set, finality, allowed outcome/state domains, and the seven frozen evaluated outcomes. A successful run verifies this release package; it does not recompute scientific metrics from per-record observations.
+The command checks the full non-circular SHA-256 manifest, the exact 31-claim identity set and all five canonical axes, fixed scientific summary values, twelve archive authority bindings, 32 reproducibility entries, and scoped license metadata. A successful run verifies this package; it does not recompute scientific metrics from per-record observations.
 
 ## What cannot be replayed from this package
 
