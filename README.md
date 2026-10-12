@@ -43,7 +43,14 @@ All included figures are independently authored SVG charts rendered from the rel
 
 ## Citation and licensing status
 
-Please cite the original SEAL paper for the method. Accurate contributor metadata and approval for a repository-wide citation record were not available, so no `CITATION.cff` is supplied. No repository-wide license is granted in this candidate. See `provenance/licensing_review.md` before any public release.
+Please cite the original SEAL paper for the method. No `CITATION.cff` is supplied. The project owner, Tien Dung (`tiendungeaknop-deptrai`), conducted and directed this package with AI assistance, according to the owner's declaration.
+
+| Material | License |
+|---|---|
+| Three original Python scripts in `scripts/` | [MIT](LICENSES/MIT.txt) |
+| Original documentation, SVG figures, aggregate result compilations and structured metadata | [CC BY 4.0](LICENSES/CC-BY-4.0.txt), only to the extent rights are held by the project owner |
+
+See [LICENSE_SCOPE.md](LICENSE_SCOPE.md) for exact path coverage, attribution and exclusions, and [licensing review](provenance/licensing_review.md) for the provenance audit. Individual scientific facts are not claimed as exclusive property. These licenses do not cover upstream SEAL or third-party assets. Public visibility and paper link insertion remain on hold.
 
 ## Limitations
 

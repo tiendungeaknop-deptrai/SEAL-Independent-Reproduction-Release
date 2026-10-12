@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Tien Dung (tiendungeaknop-deptrai)
 """Prove scientific guards reject mutations after applicable hashes are refreshed."""
 
 from __future__ import annotations

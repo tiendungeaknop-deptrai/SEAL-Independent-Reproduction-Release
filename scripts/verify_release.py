@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Tien Dung (tiendungeaknop-deptrai)
 """Verify full package integrity, canonical axes, authorities, and released values."""
 
 from __future__ import annotations
@@ -114,6 +116,17 @@ def verify_manifest(root: Path, errors: list[str]) -> int:
             errors.append(f"hash mismatch: {item['PUBLIC_PATH']}")
         if not isinstance(item.get("SOURCES"), list):
             errors.append(f"SOURCES is not an array: {item['PUBLIC_PATH']}")
+        relative = item["PUBLIC_PATH"]
+        if relative in {"scripts/build_manifest.py", "scripts/verify_release.py", "scripts/test_negative_mutations.py"}:
+            expected_license, expected_file = "MIT", "LICENSES/MIT.txt"
+        elif relative.startswith("LICENSES/"):
+            expected_license, expected_file = "STANDARD_LICENSE_TEXT", relative
+        else:
+            expected_license, expected_file = "CC-BY-4.0", "LICENSES/CC-BY-4.0.txt"
+        require_equal(errors, f"license status {relative}", item.get("LICENSE_STATUS"), expected_license)
+        require_equal(errors, f"license file {relative}", item.get("LICENSE_FILE"), expected_file)
+        if not (root / expected_file).is_file():
+            errors.append(f"missing license text: {expected_file}")
     indexed = {item["PUBLIC_PATH"]: item for item in files}
     expected_external_sources = {
         pair for bindings in EXPECTED_SOURCES.values() for pair in bindings
@@ -228,6 +241,11 @@ def verify(root: Path) -> list[str]:
     verify_claims(root, errors)
     verify_scientific_values(root, errors)
     verify_levels_sources_figures(root, errors)
+    for relative in ("scripts/build_manifest.py", "scripts/verify_release.py", "scripts/test_negative_mutations.py"):
+        if "# SPDX-License-Identifier: MIT" not in (root / relative).read_text(encoding="utf-8"):
+            errors.append(f"missing MIT script notice: {relative}")
+    if not (root / "LICENSE_SCOPE.md").is_file():
+        errors.append("missing scoped licensing notice")
     return errors
 
 

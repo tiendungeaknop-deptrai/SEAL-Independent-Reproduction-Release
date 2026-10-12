@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Tien Dung (tiendungeaknop-deptrai)
 """Build a deterministic, non-circular manifest for every tracked release file."""
 
 from __future__ import annotations
@@ -11,7 +13,15 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST_PATH = "provenance/artifact_manifest.json"
 AUTHORITY_REVISION = "498d4b25446003260d9367c10b1fdb27eb9988a1"
-LICENSE_STATUS = "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL"
+MIT_SCRIPTS = {"scripts/build_manifest.py", "scripts/verify_release.py", "scripts/test_negative_mutations.py"}
+
+
+def license_for(public_path: str) -> dict[str, str]:
+    if public_path in MIT_SCRIPTS:
+        return {"LICENSE_STATUS": "MIT", "LICENSE_FILE": "LICENSES/MIT.txt", "LICENSE_SCOPE": "OWNER_HELD_RIGHTS"}
+    if public_path.startswith("LICENSES/"):
+        return {"LICENSE_STATUS": "STANDARD_LICENSE_TEXT", "LICENSE_FILE": public_path, "LICENSE_SCOPE": "LICENSE_INSTRUMENT"}
+    return {"LICENSE_STATUS": "CC-BY-4.0", "LICENSE_FILE": "LICENSES/CC-BY-4.0.txt", "LICENSE_SCOPE": "OWNER_HELD_RIGHTS_ONLY; FACTS_AND_THIRD_PARTY_RIGHTS_NOT_CLAIMED"}
 
 
 def authority(path: str, blob: str) -> dict[str, str]:
@@ -123,7 +133,7 @@ def main() -> None:
             raise SystemExit(f"tracked file missing: {public_path}")
         record = {"PUBLIC_PATH": public_path, **metadata_for(public_path)}
         record["RELEASED_SHA256"] = sha256(path)
-        record["LICENSE_STATUS"] = LICENSE_STATUS
+        record.update(license_for(public_path))
         files.append(record)
     payload = {
         "schema_version": "2.0", "hash_algorithm": "SHA-256", "non_circular_exclusions": [MANIFEST_PATH],
