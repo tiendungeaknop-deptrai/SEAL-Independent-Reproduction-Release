@@ -7,4 +7,28 @@ cat_attack_localization,CAT_ATTACK_LOCALIZATION_SIGNAL,B,summary_only,integrity_
 caption_embedding,EMBEDDING_ABLATION,B,summary_only,integrity_validator_only,python scripts/verify_release.py,private 3000-record bundle and model artifacts
 generation_quality,GEN_QUALITY_SD_PROMPTS,B,summary_only,integrity_validator_only,python scripts/verify_release.py,private paired records and licensed model inputs
 semantic_angle,SEMANTIC_ANGLE_EMPIRICAL_CURVE,B,summary_only,integrity_validator_only,python scripts/verify_release.py,private selected records and unresolved publication mapping
+theory_detection_probability_lemma,THEORY_DETECTION_PROBABILITY_LEMMA,C,analytical_text_only,none,metadata integrity only,not an empirical replay claim
+patch_l2_seed_discrimination,PATCH_L2_SEED_DISCRIMINATION,C,unavailable,none,metadata integrity only,positive/negative classes and AUC construction unresolved
+cat_attack_parent,CAT_ATTACK,C,not_applicable,none,metadata integrity only,grouping node with no independent evaluation law
+private_model_forgery,PRIVATE_MODEL_FORGERY_AUC,C,unavailable,none,metadata integrity only,score and ROC construction unresolved
+embedding_training_process,EMBEDDING_TRAINING_PROCESS,C,unavailable,none,metadata integrity only,exact training pairs and protocol unavailable
+n_b_ablation,N_B_ABLATION,C,unavailable,none,metadata integrity only,sample identities reuse structure and ROC construction unavailable
+steganalysis_removal,STEGANALYSIS_REMOVAL,C,unavailable,none,metadata integrity only,complete public implementation and protocol unavailable
+latent_forgery,LATENT_FORGERY,C,unavailable,none,metadata integrity only,required external implementation and settings unavailable
+cat_object_scale,CAT_OBJECT_SCALE,C,unavailable,none,metadata integrity only,exact asset N and sampling realization unavailable
+insertion_semantics,INSERTION_SEMANTICS,C,unavailable,none,metadata integrity only,exact assets N placement scale and denominator unavailable
+regeneration_removal,REGENERATION_REMOVAL,C,unavailable,none,metadata integrity only,required external implementation revision and settings unavailable
+proxy_visual_comparison,PROXY_VISUAL_COMPARISON,C,illustrative_only,none,metadata integrity only,no objective evaluation rule or exact realization
+generation_quality_parent,GEN_QUALITY,C,not_applicable,none,metadata integrity only,grouping node with no synthetic aggregate outcome
+generation_quality_coco,GEN_QUALITY_COCO,C,unavailable,none,metadata integrity only,metadata release split annotation version and ordering unavailable
+generation_quality_visual,GEN_QUALITY_VISUAL,C,illustrative_only,none,metadata integrity only,no objective evaluation rule or exact realization
+repetitive_patch_visual,REPETITIVE_PATCH_VISUAL,C,illustrative_only,none,metadata integrity only,no objective evaluation rule or exact realization
+distortion_free_generation,DISTORTION_FREE_GENERATION_PROPERTY,C,analytical_text_only,none,metadata integrity only,not established by empirical generation-quality evidence
+database_free_detection,DATABASE_FREE_DETECTION_PROPERTY,C,analytical_text_only,none,metadata integrity only,method property rather than empirical result
+alternative_no_proxy_capability,ALTERNATIVE_NO_PROXY_DIRECT_WATERMARKING_CAPABILITY,C,unavailable,none,metadata integrity only,implementation and evaluation protocol unavailable
+alternative_no_proxy_quality,ALTERNATIVE_NO_PROXY_DIRECT_WATERMARK_QUALITY,C,unavailable,none,metadata integrity only,implementation and evaluation protocol unavailable
+conditional_no_false_identification,CONDITIONAL_NO_FALSE_IDENTIFICATION_PROPERTY,C,analytical_text_only,none,metadata integrity only,conditional analytical consequence only
+spatial_recovery_complexity,SPATIAL_RECOVERY_COMPLEXITY,C,analytical_text_only,none,metadata integrity only,complexity statement rather than empirical result
+set_level_noise_correlation,SET_LEVEL_NOISE_CORRELATION_LEAKAGE,C,analytical_text_only,none,metadata integrity only,mechanism analysis rather than empirical elimination
+salt_variation_tradeoff,SET_LEVEL_SALT_VARIATION_MITIGATION_TRADEOFF,C,analytical_text_only,none,metadata integrity only,tradeoff analysis with unresolved empirical protocol
 
