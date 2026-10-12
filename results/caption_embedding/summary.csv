@@ -1,0 +1,5 @@
+configuration,n,mean_angular_gap_degrees,median_angular_gap_degrees,outcome
+none_clip,1000,9.3251,9.5242,REPRODUCED
+blip2_original,1000,44.5062,45.1894,REPRODUCED
+blip2_finetuned,1000,50.1505,49.5758,REPRODUCED
+

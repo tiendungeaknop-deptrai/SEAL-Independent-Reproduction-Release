@@ -1,0 +1,7 @@
+track,n,roc_auc,ci_low,ci_high,paper_target,outcome,limitation
+basic_seal,30,0.7167,0.6056,0.8239,0.551,INCONCLUSIVE,surrogate cat asset
+SOURCE_LITERAL_spatial,30,0.5450,0.4633,0.6378,0.982,INCONCLUSIVE,released helper hash interpretation
+PAPER_CONSISTENT_spatial,30,0.8011,0.7150,0.8878,0.982,INCONCLUSIVE,generation SHA-256 interpretation
+SOURCE_LITERAL_localization,30,,,,,INCONCLUSIVE,inside mean greater than outside in 21 of 30 attacked images
+PAPER_CONSISTENT_localization,30,,,,,INCONCLUSIVE,inside mean greater than outside in 30 of 30 attacked images
+

@@ -1,0 +1,10 @@
+result_identity,claim_id,level,public_input_availability,analysis_code_availability,verification,remaining_dependency
+clean_detector,SUPPORTING_CLEAN_DETECTOR,B,summary_only,integrity_validator_only,python scripts/verify_release.py,private record-level outputs and licensed model inputs
+transformation_robustness,TRANSFORM_ROBUSTNESS,B,summary_only,integrity_validator_only,python scripts/verify_release.py,private record-level outputs
+cat_attack_basic,CAT_ATTACK_BASIC_AUC,B,summary_only,integrity_validator_only,python scripts/verify_release.py,private records and unavailable publication cat asset
+cat_attack_spatial,CAT_ATTACK_SPATIAL_AUC,B,summary_only,integrity_validator_only,python scripts/verify_release.py,private records and unresolved source semantics
+cat_attack_localization,CAT_ATTACK_LOCALIZATION_SIGNAL,B,summary_only,integrity_validator_only,python scripts/verify_release.py,private attacked maps and non-redistributed imagery
+caption_embedding,EMBEDDING_ABLATION,B,summary_only,integrity_validator_only,python scripts/verify_release.py,private 3000-record bundle and model artifacts
+generation_quality,GEN_QUALITY_SD_PROMPTS,B,summary_only,integrity_validator_only,python scripts/verify_release.py,private paired records and licensed model inputs
+semantic_angle,SEMANTIC_ANGLE_EMPIRICAL_CURVE,B,summary_only,integrity_validator_only,python scripts/verify_release.py,private selected records and unresolved publication mapping
+

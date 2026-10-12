@@ -1,0 +1,11 @@
+{
+  "claim_id": "SEMANTIC_ANGLE_EMPIRICAL_CURVE",
+  "selected_records": 549,
+  "configured_bins": 30,
+  "populated_bins": 27,
+  "empty_intervals_degrees": ["[3,6)", "[6,9)", "[9,12)"],
+  "maximum_observed_angle_degrees": 89.910995,
+  "outcome": "INCONCLUSIVE",
+  "reason": "Publication mapping and comparison rule remain unresolved."
+}
+

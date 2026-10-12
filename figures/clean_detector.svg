@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Clean detector ROC-AUC by evaluation stage</title>
+  <desc id="desc">Calibration AUC is 1.00; held-out and confirmatory AUC are each 0.90.</desc>
+  <rect width="720" height="420" fill="white"/>
+  <g font-family="Arial, sans-serif" fill="#202124">
+    <text x="360" y="34" text-anchor="middle" font-size="22" font-weight="700">Clean detector stability</text>
+    <text x="360" y="58" text-anchor="middle" font-size="13">Calibration is threshold-selected; later stages use the frozen detector</text>
+    <line x1="95" y1="330" x2="680" y2="330" stroke="#444"/>
+    <line x1="95" y1="90" x2="95" y2="330" stroke="#444"/>
+    <g font-size="12" text-anchor="end"><text x="86" y="334">0.0</text><text x="86" y="214">0.5</text><text x="86" y="94">1.0</text></g>
+    <g fill="#4c78a8">
+      <rect x="145" y="90" width="110" height="240"/>
+      <rect x="325" y="114" width="110" height="216"/>
+      <rect x="505" y="114" width="110" height="216"/>
+    </g>
+    <g font-size="18" font-weight="700" text-anchor="middle"><text x="200" y="82">1.00</text><text x="380" y="106">0.90</text><text x="560" y="106">0.90</text></g>
+    <g font-size="14" text-anchor="middle"><text x="200" y="354">Calibration</text><text x="200" y="373">10 + 10</text><text x="380" y="354">Held-out</text><text x="380" y="373">20 + 20</text><text x="560" y="354">Confirmatory</text><text x="560" y="373">30 + 30</text></g>
+    <text transform="translate(27 218) rotate(-90)" text-anchor="middle" font-size="15">Image-level ROC-AUC</text>
+  </g>
+</svg>
+

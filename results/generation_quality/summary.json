@@ -1,0 +1,17 @@
+{
+  "claim_id": "GEN_QUALITY_SD_PROMPTS",
+  "n_paired": 100,
+  "metric": "SOURCE_DEFINED_CLIP_SCORE",
+  "reproduction": {
+    "before_mean": 32.5698,
+    "after_mean": 33.3159,
+    "paired_delta_mean": 0.7461,
+    "paired_delta_median": 0.6994,
+    "paired_delta_bootstrap_95_percentile_ci": [0.1876, 1.3111],
+    "bootstrap_replicates": 10000
+  },
+  "paper_targets": {"before_mean": 32.378, "after_mean": 32.401, "delta": 0.023},
+  "outcome": "INCONCLUSIVE",
+  "reason": "No paper-defined or pre-result numerical tolerance authorized an outcome decision."
+}
+

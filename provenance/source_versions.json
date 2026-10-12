@@ -1,0 +1,23 @@
+{
+  "original_work": {
+    "title": "SEAL: Semantic Aware Image Watermarking",
+    "venue": "ICCV 2025",
+    "authors": ["Kasra Arabi", "R. Teal Witter", "Chinmay Hegde", "Niv Cohen"],
+    "repository": "https://github.com/Kasraarabi/SEAL",
+    "upstream_commit": "92d31b31b93a6e373fe88a584c640beafb68c6fa"
+  },
+  "frozen_private_reproduction_authority": {
+    "repository": "tiendungeaknop-deptrai/SEAL-repro",
+    "tag": "level-max-final",
+    "commit": "498d4b25446003260d9367c10b1fdb27eb9988a1",
+    "claim_census_path": "repro/level-max/CLAIM_CENSUS_V2.json",
+    "claim_census_git_blob": "864206ab66e2a02d83bcf0ba7c99b18d4c9f5694",
+    "canonical_snapshot_path": "repro/level-max/CANONICAL_STATE_SNAPSHOT_d855949898275847de290806da075d0fe7efe3f9f4ad320553a2891338f079cf.json",
+    "canonical_snapshot_git_blob": "1f2f7566e942f8b0e325824d10181f4f4c785fd5"
+  },
+  "model_source_deviation": {
+    "repository": "sd2-community/stable-diffusion-2-1-base",
+    "revision": "4e63672c03103b6c636b8fb4119ba982469b2955"
+  }
+}
+

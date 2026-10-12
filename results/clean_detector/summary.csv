@@ -1,0 +1,6 @@
+stage,positive_n,control_n,tp,tn,fp,fn,roc_auc,independent_evaluation,note
+calibration,10,10,10,10,0,0,1.0000,no,threshold-selected calibration
+held_out,20,20,16,20,0,4,0.9000,yes,frozen detector
+confirmatory,30,30,24,30,0,6,0.9000,yes,preregistered frozen detector
+pooled_secondary,50,50,40,50,0,10,0.9000,no,secondary pooled summary of held-out and confirmatory
+
