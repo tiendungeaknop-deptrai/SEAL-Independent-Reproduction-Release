@@ -2,6 +2,8 @@
 
 All figures are independently authored vector charts generated from released summary tables in this repository. They contain no third-party image bytes.
 
+The SVG files are static editorial renderings. A deterministic byte-exact figure renderer is **not** supplied. `scripts/verify_release.py` instead checks every displayed numeric label against the fixed released summaries and verifies each SVG byte hash through the package manifest.
+
 | Figure | Purpose | Source | N | Limitation |
 |---|---|---|---:|---|
 | `clean_detector.svg` | Separate calibration from frozen evaluation | `results/clean_detector/summary.csv` | 10/10, 20/20, 30/30 | calibration is not independent; pooled summary omitted |

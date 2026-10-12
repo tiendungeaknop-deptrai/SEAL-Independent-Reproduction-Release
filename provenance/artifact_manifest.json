@@ -1,162 +1,373 @@
 {
-  "schema_version": "1.0",
-  "artifact_count": 12,
-  "artifacts": [
+  "files": [
     {
+      "ARTIFACT_TYPE": "DOCUMENTATION_OR_METADATA",
+      "INPUT_AVAILABILITY": "NOT_APPLICABLE",
+      "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
+      "LIMITATIONS": "Independently authored package support file.",
+      "PUBLIC_PATH": ".gitattributes",
+      "PUBLIC_REPRODUCIBILITY_LEVEL": "NOT_A_SCIENTIFIC_RESULT",
+      "RELEASED_SHA256": "b1bab06902d25ba3cde64c4e18f21550d91bd93f1c84e754668e1cd160e269ce",
+      "SCIENTIFIC_CLAIM": "PACKAGE_SUPPORT",
+      "SOURCES": []
+    },
+    {
+      "ARTIFACT_TYPE": "DOCUMENTATION_OR_METADATA",
+      "INPUT_AVAILABILITY": "NOT_APPLICABLE",
+      "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
+      "LIMITATIONS": "Independently authored package support file.",
+      "PUBLIC_PATH": ".gitignore",
+      "PUBLIC_REPRODUCIBILITY_LEVEL": "NOT_A_SCIENTIFIC_RESULT",
+      "RELEASED_SHA256": "c5e94ee090de6bb682e2f32770bcbfbeada6ac68611cc73c7da608b7cc0278ae",
+      "SCIENTIFIC_CLAIM": "PACKAGE_SUPPORT",
+      "SOURCES": []
+    },
+    {
+      "ARTIFACT_TYPE": "DOCUMENTATION_OR_METADATA",
+      "INPUT_AVAILABILITY": "NOT_APPLICABLE",
+      "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
+      "LIMITATIONS": "Independently authored package support file.",
+      "PUBLIC_PATH": "README.md",
+      "PUBLIC_REPRODUCIBILITY_LEVEL": "NOT_A_SCIENTIFIC_RESULT",
+      "RELEASED_SHA256": "88cecae0bc89c88754a3575e1eb81ea09de3803a6c3e9fc9e2aaf2278cdd7dce",
+      "SCIENTIFIC_CLAIM": "PACKAGE_SUPPORT",
+      "SOURCES": []
+    },
+    {
+      "ARTIFACT_TYPE": "DOCUMENTATION_OR_METADATA",
+      "INPUT_AVAILABILITY": "NOT_APPLICABLE",
+      "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
+      "LIMITATIONS": "Independently authored package support file.",
+      "PUBLIC_PATH": "REPRODUCE.md",
+      "PUBLIC_REPRODUCIBILITY_LEVEL": "NOT_A_SCIENTIFIC_RESULT",
+      "RELEASED_SHA256": "e87e7423bff5b7cdebaf6eb179b4c386f930762c0c960410e50b42051294e90c",
+      "SCIENTIFIC_CLAIM": "PACKAGE_SUPPORT",
+      "SOURCES": []
+    },
+    {
+      "ARTIFACT_TYPE": "DOCUMENTATION_OR_METADATA",
+      "INPUT_AVAILABILITY": "NOT_APPLICABLE",
+      "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
+      "LIMITATIONS": "Independently authored package support file.",
+      "PUBLIC_PATH": "docs/deviations.md",
+      "PUBLIC_REPRODUCIBILITY_LEVEL": "NOT_A_SCIENTIFIC_RESULT",
+      "RELEASED_SHA256": "bc27efbff8ba71fc8619036b253ef6b733753864fb7667c6f3cd92451d80069f",
+      "SCIENTIFIC_CLAIM": "PACKAGE_SUPPORT",
+      "SOURCES": []
+    },
+    {
+      "ARTIFACT_TYPE": "DOCUMENTATION_OR_METADATA",
+      "INPUT_AVAILABILITY": "NOT_APPLICABLE",
+      "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
+      "LIMITATIONS": "Independently authored package support file.",
+      "PUBLIC_PATH": "docs/experimental_protocols.md",
+      "PUBLIC_REPRODUCIBILITY_LEVEL": "NOT_A_SCIENTIFIC_RESULT",
+      "RELEASED_SHA256": "e5e10c64876966cc324c8b7635a1d5278435d2c073ef648a6f19c0c3801df9c0",
+      "SCIENTIFIC_CLAIM": "PACKAGE_SUPPORT",
+      "SOURCES": []
+    },
+    {
+      "ARTIFACT_TYPE": "DOCUMENTATION_OR_METADATA",
+      "INPUT_AVAILABILITY": "NOT_APPLICABLE",
+      "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
+      "LIMITATIONS": "Independently authored package support file.",
+      "PUBLIC_PATH": "docs/limitations.md",
+      "PUBLIC_REPRODUCIBILITY_LEVEL": "NOT_A_SCIENTIFIC_RESULT",
+      "RELEASED_SHA256": "86a225e3c2059ee19d90497c93e862bf111ed13301b4d3e09261943bbcfbf1c9",
+      "SCIENTIFIC_CLAIM": "PACKAGE_SUPPORT",
+      "SOURCES": []
+    },
+    {
+      "ARTIFACT_TYPE": "DOCUMENTATION_OR_METADATA",
+      "INPUT_AVAILABILITY": "NOT_APPLICABLE",
+      "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
+      "LIMITATIONS": "Independently authored package support file.",
+      "PUBLIC_PATH": "docs/methodology.md",
+      "PUBLIC_REPRODUCIBILITY_LEVEL": "NOT_A_SCIENTIFIC_RESULT",
+      "RELEASED_SHA256": "05a617e5a84e1c67524523db080bb6157e180e9c3a1e4fa53071023931224045",
+      "SCIENTIFIC_CLAIM": "PACKAGE_SUPPORT",
+      "SOURCES": []
+    },
+    {
+      "ARTIFACT_TYPE": "DOCUMENTATION_OR_METADATA",
+      "INPUT_AVAILABILITY": "NOT_APPLICABLE",
+      "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
+      "LIMITATIONS": "Independently authored package support file.",
+      "PUBLIC_PATH": "figures/README.md",
+      "PUBLIC_REPRODUCIBILITY_LEVEL": "NOT_A_SCIENTIFIC_RESULT",
+      "RELEASED_SHA256": "dd9566904725b3fff98e2783451bbcf4fd12e2a8e6b0c54d64692ed12ad3dd9e",
+      "SCIENTIFIC_CLAIM": "PACKAGE_SUPPORT",
+      "SOURCES": []
+    },
+    {
+      "ARTIFACT_TYPE": "VECTOR_FIGURE",
+      "INPUT_AVAILABILITY": "SUMMARY_ONLY",
+      "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
+      "LIMITATIONS": "Full-scale means shown; byte-exact renderer is not supplied.",
       "PUBLIC_PATH": "figures/caption_embedding.svg",
-      "ARTIFACT_TYPE": "VECTOR_FIGURE",
-      "SCIENTIFIC_CLAIM": "EMBEDDING_ABLATION",
-      "SOURCE_REVISION": "498d4b25446003260d9367c10b1fdb27eb9988a1",
-      "SOURCE_PATH": "results/caption_embedding/summary.csv",
-      "SOURCE_GIT_BLOB_OR_SHA256": "DERIVED_FROM_RELEASED_SUMMARY",
+      "PUBLIC_REPRODUCIBILITY_LEVEL": "B",
       "RELEASED_SHA256": "07695d437e10ef4f0f00030bb2c282a4887a1ad966a98a8151d2915caec412bd",
-      "PUBLIC_REPRODUCIBILITY_LEVEL": "B",
-      "INPUT_AVAILABILITY": "SUMMARY_ONLY",
-      "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
-      "LIMITATIONS": "Full-scale means shown; does not reproduce embedding training."
+      "SCIENTIFIC_CLAIM": "EMBEDDING_ABLATION",
+      "SOURCES": [
+        {
+          "SOURCE_GIT_BLOB_OR_SHA256": "c44ff7ebd93fbedd8b3380085e88da1efce7bd0bcb9ecb058ffb8a8d7e965f9e",
+          "SOURCE_PATH": "results/caption_embedding/summary.csv",
+          "SOURCE_REVISION": "THIS_RELEASE"
+        }
+      ]
     },
     {
+      "ARTIFACT_TYPE": "VECTOR_FIGURE",
+      "INPUT_AVAILABILITY": "SUMMARY_ONLY",
+      "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
+      "LIMITATIONS": "No uncertainty interval shown; calibration is not independent.",
       "PUBLIC_PATH": "figures/clean_detector.svg",
-      "ARTIFACT_TYPE": "VECTOR_FIGURE",
-      "SCIENTIFIC_CLAIM": "SUPPORTING_CLEAN_DETECTOR",
-      "SOURCE_REVISION": "498d4b25446003260d9367c10b1fdb27eb9988a1",
-      "SOURCE_PATH": "results/clean_detector/summary.csv",
-      "SOURCE_GIT_BLOB_OR_SHA256": "DERIVED_FROM_RELEASED_SUMMARY",
+      "PUBLIC_REPRODUCIBILITY_LEVEL": "B",
       "RELEASED_SHA256": "9fbf968a0e4006655e519250390d490df94147ae695c21626fe4d7f76ab5ead4",
-      "PUBLIC_REPRODUCIBILITY_LEVEL": "B",
-      "INPUT_AVAILABILITY": "SUMMARY_ONLY",
-      "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
-      "LIMITATIONS": "No uncertainty interval shown; calibration is not independent."
+      "SCIENTIFIC_CLAIM": "SUPPORTING_CLEAN_DETECTOR",
+      "SOURCES": [
+        {
+          "SOURCE_GIT_BLOB_OR_SHA256": "3f6355557cbd27c63e76562aea867157b87ebb612ab2ac62253fc4c38379c2a8",
+          "SOURCE_PATH": "results/clean_detector/summary.csv",
+          "SOURCE_REVISION": "THIS_RELEASE"
+        }
+      ]
     },
     {
-      "PUBLIC_PATH": "figures/transformation_robustness.svg",
       "ARTIFACT_TYPE": "VECTOR_FIGURE",
-      "SCIENTIFIC_CLAIM": "TRANSFORM_ROBUSTNESS",
-      "SOURCE_REVISION": "498d4b25446003260d9367c10b1fdb27eb9988a1",
-      "SOURCE_PATH": "results/transformation_robustness/summary.csv",
-      "SOURCE_GIT_BLOB_OR_SHA256": "DERIVED_FROM_RELEASED_SUMMARY",
-      "RELEASED_SHA256": "6a85fa042a4c4222dbf5efbc736c2a289598ce97b487af3e2ed697a49ac4376f",
+      "INPUT_AVAILABILITY": "SUMMARY_ONLY",
+      "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
+      "LIMITATIONS": "No confidence intervals invented; outcome remains INCONCLUSIVE.",
+      "PUBLIC_PATH": "figures/transformation_robustness.svg",
       "PUBLIC_REPRODUCIBILITY_LEVEL": "B",
-      "INPUT_AVAILABILITY": "SUMMARY_ONLY",
-      "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
-      "LIMITATIONS": "No confidence intervals invented; outcome remains INCONCLUSIVE."
+      "RELEASED_SHA256": "6a85fa042a4c4222dbf5efbc736c2a289598ce97b487af3e2ed697a49ac4376f",
+      "SCIENTIFIC_CLAIM": "TRANSFORM_ROBUSTNESS",
+      "SOURCES": [
+        {
+          "SOURCE_GIT_BLOB_OR_SHA256": "8f8e0eab6366686292a8a5f6dde72e44675a1c3fa7b0dde3b156837bbbf04b1b",
+          "SOURCE_PATH": "results/transformation_robustness/summary.csv",
+          "SOURCE_REVISION": "THIS_RELEASE"
+        }
+      ]
     },
     {
-      "PUBLIC_PATH": "provenance/claim_outcomes.csv",
       "ARTIFACT_TYPE": "CLAIM_MAP",
-      "SCIENTIFIC_CLAIM": "ALL_31_CLAIMS",
-      "SOURCE_REVISION": "498d4b25446003260d9367c10b1fdb27eb9988a1",
-      "SOURCE_PATH": "repro/level-max/CANONICAL_STATE_SNAPSHOT_d855949898275847de290806da075d0fe7efe3f9f4ad320553a2891338f079cf.json",
-      "SOURCE_GIT_BLOB_OR_SHA256": "1f2f7566e942f8b0e325824d10181f4f4c785fd5",
+      "INPUT_AVAILABILITY": "SUMMARY_ONLY",
+      "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
+      "LIMITATIONS": "Preserves final canonical axes; not a substitute for unavailable protocols.",
+      "PUBLIC_PATH": "provenance/claim_outcomes.csv",
+      "PUBLIC_REPRODUCIBILITY_LEVEL": "MIXED_B_C",
       "RELEASED_SHA256": "ba97cc324527a440003883fd8f52106eb49228146b357c88b31f11ddce334c32",
-      "PUBLIC_REPRODUCIBILITY_LEVEL": "MIXED_B_C",
-      "INPUT_AVAILABILITY": "SUMMARY_ONLY",
-      "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
-      "LIMITATIONS": "Preserves final canonical axes; not a substitute for unavailable protocols."
+      "SCIENTIFIC_CLAIM": "ALL_31_CLAIMS",
+      "SOURCES": [
+        {
+          "SOURCE_GIT_BLOB_OR_SHA256": "1f2f7566e942f8b0e325824d10181f4f4c785fd5",
+          "SOURCE_PATH": "repro/level-max/CANONICAL_STATE_SNAPSHOT_d855949898275847de290806da075d0fe7efe3f9f4ad320553a2891338f079cf.json",
+          "SOURCE_REVISION": "498d4b25446003260d9367c10b1fdb27eb9988a1"
+        }
+      ]
     },
     {
+      "ARTIFACT_TYPE": "DOCUMENTATION_OR_METADATA",
+      "INPUT_AVAILABILITY": "NOT_APPLICABLE",
+      "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
+      "LIMITATIONS": "Independently authored package support file.",
+      "PUBLIC_PATH": "provenance/licensing_review.md",
+      "PUBLIC_REPRODUCIBILITY_LEVEL": "NOT_A_SCIENTIFIC_RESULT",
+      "RELEASED_SHA256": "77f97b01cca43d0e2e7e5ff595eb0f1e6c4376d69c135f56ed46098249f276a2",
+      "SCIENTIFIC_CLAIM": "PACKAGE_SUPPORT",
+      "SOURCES": []
+    },
+    {
+      "ARTIFACT_TYPE": "DOCUMENTATION_OR_METADATA",
+      "INPUT_AVAILABILITY": "NOT_APPLICABLE",
+      "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
+      "LIMITATIONS": "Independently authored package support file.",
       "PUBLIC_PATH": "provenance/reproducibility_levels.csv",
-      "ARTIFACT_TYPE": "REPRODUCIBILITY_MAP",
-      "SCIENTIFIC_CLAIM": "RELEASED_RESULTS",
-      "SOURCE_REVISION": "498d4b25446003260d9367c10b1fdb27eb9988a1",
-      "SOURCE_PATH": "curation assessment",
-      "SOURCE_GIT_BLOB_OR_SHA256": "INDEPENDENTLY_AUTHORED",
+      "PUBLIC_REPRODUCIBILITY_LEVEL": "NOT_A_SCIENTIFIC_RESULT",
       "RELEASED_SHA256": "80a0cfd6ecd7d934c4e54d2352729c3d959b4e9881e104e7840de5a20b98e87d",
-      "PUBLIC_REPRODUCIBILITY_LEVEL": "MIXED_B_C",
-      "INPUT_AVAILABILITY": "SUMMARY_ONLY",
-      "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
-      "LIMITATIONS": "Levels describe this package, not the private archive."
+      "SCIENTIFIC_CLAIM": "PACKAGE_SUPPORT",
+      "SOURCES": []
     },
     {
-      "PUBLIC_PATH": "provenance/source_versions.json",
       "ARTIFACT_TYPE": "SOURCE_BINDING",
-      "SCIENTIFIC_CLAIM": "RELEASED_RESULTS",
-      "SOURCE_REVISION": "498d4b25446003260d9367c10b1fdb27eb9988a1",
-      "SOURCE_PATH": "frozen private authority",
-      "SOURCE_GIT_BLOB_OR_SHA256": "INDEPENDENTLY_AUTHORED",
-      "RELEASED_SHA256": "f36a9e8166e9d2dcf1c208cabdeb6604fad73a59f8d9c7cbffe4c5992c32b615",
-      "PUBLIC_REPRODUCIBILITY_LEVEL": "MIXED_B_C",
       "INPUT_AVAILABILITY": "METADATA_ONLY",
       "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
-      "LIMITATIONS": "Private archive identifiers are not public download links."
+      "LIMITATIONS": "Private archive identifiers are provenance locators, not public download links.",
+      "PUBLIC_PATH": "provenance/source_versions.json",
+      "PUBLIC_REPRODUCIBILITY_LEVEL": "MIXED_B_C",
+      "RELEASED_SHA256": "7201a54ee913402b1f51fedb4e773fe14a41ee7cf3fdb463d311f7e62a7719f2",
+      "SCIENTIFIC_CLAIM": "RELEASED_RESULTS",
+      "SOURCES": [
+        {
+          "SOURCE_GIT_BLOB_OR_SHA256": "2dfdbc4a9ab40c0b7715d253ee1c1f5deb39f0b9",
+          "SOURCE_PATH": "repro/MODEL_MANIFEST.md",
+          "SOURCE_REVISION": "498d4b25446003260d9367c10b1fdb27eb9988a1"
+        },
+        {
+          "SOURCE_GIT_BLOB_OR_SHA256": "4acd3b75d5b625f80017597233d89abda4ce6be3",
+          "SOURCE_PATH": "repro/REMAINING_CLAIMS_MODEL_MANIFEST.md",
+          "SOURCE_REVISION": "498d4b25446003260d9367c10b1fdb27eb9988a1"
+        }
+      ]
     },
     {
+      "ARTIFACT_TYPE": "RESULT_SUMMARY",
+      "INPUT_AVAILABILITY": "SUMMARY_ONLY",
+      "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
+      "LIMITATIONS": "Released fine-tuned artifact evaluated; training process not reproduced.",
       "PUBLIC_PATH": "results/caption_embedding/summary.csv",
-      "ARTIFACT_TYPE": "RESULT_SUMMARY",
-      "SCIENTIFIC_CLAIM": "EMBEDDING_ABLATION",
-      "SOURCE_REVISION": "498d4b25446003260d9367c10b1fdb27eb9988a1",
-      "SOURCE_PATH": "repro/CAPTION_EMBEDDING_ABLATION_SUMMARY.json",
-      "SOURCE_GIT_BLOB_OR_SHA256": "c896f36f7c94ffd97902200bcbe985fa3545ab3b",
+      "PUBLIC_REPRODUCIBILITY_LEVEL": "B",
       "RELEASED_SHA256": "c44ff7ebd93fbedd8b3380085e88da1efce7bd0bcb9ecb058ffb8a8d7e965f9e",
-      "PUBLIC_REPRODUCIBILITY_LEVEL": "B",
-      "INPUT_AVAILABILITY": "SUMMARY_ONLY",
-      "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
-      "LIMITATIONS": "Released fine-tuned artifact evaluated; training process not reproduced."
+      "SCIENTIFIC_CLAIM": "EMBEDDING_ABLATION",
+      "SOURCES": [
+        {
+          "SOURCE_GIT_BLOB_OR_SHA256": "bdd95c871cf2294fa300c75cade1b62c3529c2a5",
+          "SOURCE_PATH": "repro/level-max/campaign-c/CAMPAIGN_C_FINAL_CLOSURE.json",
+          "SOURCE_REVISION": "498d4b25446003260d9367c10b1fdb27eb9988a1"
+        }
+      ]
     },
     {
+      "ARTIFACT_TYPE": "RESULT_SUMMARY",
+      "INPUT_AVAILABILITY": "SUMMARY_ONLY",
+      "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
+      "LIMITATIONS": "Surrogate cat asset; exact publication asset and some protocol details unavailable.",
       "PUBLIC_PATH": "results/cat_attack/summary.csv",
-      "ARTIFACT_TYPE": "RESULT_SUMMARY",
-      "SCIENTIFIC_CLAIM": "CAT_ATTACK_BASIC_AUC; CAT_ATTACK_SPATIAL_AUC; CAT_ATTACK_LOCALIZATION_SIGNAL",
-      "SOURCE_REVISION": "498d4b25446003260d9367c10b1fdb27eb9988a1",
-      "SOURCE_PATH": "repro/CAT_ATTACK_30_REPORT.md",
-      "SOURCE_GIT_BLOB_OR_SHA256": "6abe800ad310fe4c0500accf1aca13d49d6b4908",
+      "PUBLIC_REPRODUCIBILITY_LEVEL": "B",
       "RELEASED_SHA256": "d5cc471a3b2583675a7aae31759d8d816c982270416ac2028807f5bdf0a3cdac",
-      "PUBLIC_REPRODUCIBILITY_LEVEL": "B",
-      "INPUT_AVAILABILITY": "SUMMARY_ONLY",
-      "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
-      "LIMITATIONS": "Surrogate cat asset; exact publication asset and some protocol details unavailable."
+      "SCIENTIFIC_CLAIM": "CAT_ATTACK_BASIC_AUC; CAT_ATTACK_SPATIAL_AUC; CAT_ATTACK_LOCALIZATION_SIGNAL",
+      "SOURCES": [
+        {
+          "SOURCE_GIT_BLOB_OR_SHA256": "6abe800ad310fe4c0500accf1aca13d49d6b4908",
+          "SOURCE_PATH": "repro/CAT_ATTACK_30_REPORT.md",
+          "SOURCE_REVISION": "498d4b25446003260d9367c10b1fdb27eb9988a1"
+        }
+      ]
     },
     {
+      "ARTIFACT_TYPE": "RESULT_SUMMARY",
+      "INPUT_AVAILABILITY": "SUMMARY_ONLY",
+      "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
+      "LIMITATIONS": "Calibration is not independent; record-level outputs remain private.",
       "PUBLIC_PATH": "results/clean_detector/summary.csv",
-      "ARTIFACT_TYPE": "RESULT_SUMMARY",
-      "SCIENTIFIC_CLAIM": "SUPPORTING_CLEAN_DETECTOR",
-      "SOURCE_REVISION": "498d4b25446003260d9367c10b1fdb27eb9988a1",
-      "SOURCE_PATH": "repro/CALIBRATION_10_REPORT.md; repro/HELDOUT_20_REPORT.md; repro/CONFIRMATORY_30_REPORT.md; repro/CLEAN_DETECTOR_50_SUMMARY.md",
-      "SOURCE_GIT_BLOB_OR_SHA256": "888bd856b5085723df2b5a75d511319d0d03259e;e64839be99f7df30bfa5de43982d1165a9b49736;aab444589446314ef0b4bbee58b870c76691dea0;c5c1a0e9f8783809fdbb8f862b802d4a9ad125b0",
+      "PUBLIC_REPRODUCIBILITY_LEVEL": "B",
       "RELEASED_SHA256": "3f6355557cbd27c63e76562aea867157b87ebb612ab2ac62253fc4c38379c2a8",
-      "PUBLIC_REPRODUCIBILITY_LEVEL": "B",
-      "INPUT_AVAILABILITY": "SUMMARY_ONLY",
-      "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
-      "LIMITATIONS": "Calibration is not independent; record-level outputs remain private."
+      "SCIENTIFIC_CLAIM": "SUPPORTING_CLEAN_DETECTOR",
+      "SOURCES": [
+        {
+          "SOURCE_GIT_BLOB_OR_SHA256": "24ee28292d766f3ce7c8f50fc132ef6298f9e204",
+          "SOURCE_PATH": "repro/DETECTOR_CALIBRATION_10_REPORT.md",
+          "SOURCE_REVISION": "498d4b25446003260d9367c10b1fdb27eb9988a1"
+        },
+        {
+          "SOURCE_GIT_BLOB_OR_SHA256": "e64839be99f7df30bfa5de43982d1165a9b49736",
+          "SOURCE_PATH": "repro/HELDOUT_20_REPORT.md",
+          "SOURCE_REVISION": "498d4b25446003260d9367c10b1fdb27eb9988a1"
+        },
+        {
+          "SOURCE_GIT_BLOB_OR_SHA256": "aab444589446314ef0b4bbee58b870c76691dea0",
+          "SOURCE_PATH": "repro/CONFIRMATORY_30_REPORT.md",
+          "SOURCE_REVISION": "498d4b25446003260d9367c10b1fdb27eb9988a1"
+        },
+        {
+          "SOURCE_GIT_BLOB_OR_SHA256": "c5c1a0e9f8783809fdbb8f862b802d4a9ad125b0",
+          "SOURCE_PATH": "repro/CLEAN_DETECTOR_50_SUMMARY.md",
+          "SOURCE_REVISION": "498d4b25446003260d9367c10b1fdb27eb9988a1"
+        }
+      ]
     },
     {
+      "ARTIFACT_TYPE": "RESULT_SUMMARY",
+      "INPUT_AVAILABILITY": "SUMMARY_ONLY",
+      "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
+      "LIMITATIONS": "Private paired records; metric is source-defined, not standardized CLIPScore.",
       "PUBLIC_PATH": "results/generation_quality/summary.json",
-      "ARTIFACT_TYPE": "RESULT_SUMMARY",
-      "SCIENTIFIC_CLAIM": "GEN_QUALITY_SD_PROMPTS",
-      "SOURCE_REVISION": "498d4b25446003260d9367c10b1fdb27eb9988a1",
-      "SOURCE_PATH": "repro/GENERATION_QUALITY_ANALYSIS.json",
-      "SOURCE_GIT_BLOB_OR_SHA256": "6a95fe1a6c412a642ac89492d548cac31571166c",
+      "PUBLIC_REPRODUCIBILITY_LEVEL": "B",
       "RELEASED_SHA256": "2f756188f31629566bfeefd1731af28833ecf14edbd55f3ab31cf06b945223f0",
-      "PUBLIC_REPRODUCIBILITY_LEVEL": "B",
-      "INPUT_AVAILABILITY": "SUMMARY_ONLY",
-      "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
-      "LIMITATIONS": "Private paired records; metric is source-defined, not standardized CLIPScore."
+      "SCIENTIFIC_CLAIM": "GEN_QUALITY_SD_PROMPTS",
+      "SOURCES": [
+        {
+          "SOURCE_GIT_BLOB_OR_SHA256": "6a95fe1a6c412a642ac89492d548cac31571166c",
+          "SOURCE_PATH": "repro/GENERATION_QUALITY_ANALYSIS.json",
+          "SOURCE_REVISION": "498d4b25446003260d9367c10b1fdb27eb9988a1"
+        }
+      ]
     },
     {
+      "ARTIFACT_TYPE": "RESULT_SUMMARY",
+      "INPUT_AVAILABILITY": "SUMMARY_ONLY",
+      "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
+      "LIMITATIONS": "Private selected records; publication mapping and comparison rule unresolved.",
       "PUBLIC_PATH": "results/semantic_angle/coverage.json",
-      "ARTIFACT_TYPE": "RESULT_SUMMARY",
-      "SCIENTIFIC_CLAIM": "SEMANTIC_ANGLE_EMPIRICAL_CURVE",
-      "SOURCE_REVISION": "498d4b25446003260d9367c10b1fdb27eb9988a1",
-      "SOURCE_PATH": "repro/level-max/CANONICAL_STATE_SNAPSHOT_d855949898275847de290806da075d0fe7efe3f9f4ad320553a2891338f079cf.json",
-      "SOURCE_GIT_BLOB_OR_SHA256": "1f2f7566e942f8b0e325824d10181f4f4c785fd5",
-      "RELEASED_SHA256": "6621d98497f847789edb13a081d1db19c3445f74666e788cf953e0a0e85108ef",
       "PUBLIC_REPRODUCIBILITY_LEVEL": "B",
-      "INPUT_AVAILABILITY": "SUMMARY_ONLY",
-      "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
-      "LIMITATIONS": "Private selected records; publication mapping and comparison rule unresolved."
+      "RELEASED_SHA256": "c6c339239291e5050a2217e9c7af5e138ad78a491e8ca5573d54d623011f7594",
+      "SCIENTIFIC_CLAIM": "SEMANTIC_ANGLE_EMPIRICAL_CURVE",
+      "SOURCES": [
+        {
+          "SOURCE_GIT_BLOB_OR_SHA256": "d3cf248a2279e238ac660ff0d2c3a62db95e5872",
+          "SOURCE_PATH": "repro/level-max/campaign-a/CAMPAIGN_A_RESULT.json",
+          "SOURCE_REVISION": "498d4b25446003260d9367c10b1fdb27eb9988a1"
+        }
+      ]
     },
     {
-      "PUBLIC_PATH": "results/transformation_robustness/summary.csv",
       "ARTIFACT_TYPE": "RESULT_SUMMARY",
-      "SCIENTIFIC_CLAIM": "TRANSFORM_ROBUSTNESS",
-      "SOURCE_REVISION": "498d4b25446003260d9367c10b1fdb27eb9988a1",
-      "SOURCE_PATH": "repro/TRANSFORM_ROBUSTNESS_30_REPORT.md",
-      "SOURCE_GIT_BLOB_OR_SHA256": "7e1e7b7cc6f0c3a63855e960f6b461ea31e6bb13",
-      "RELEASED_SHA256": "8f8e0eab6366686292a8a5f6dde72e44675a1c3fa7b0dde3b156837bbbf04b1b",
-      "PUBLIC_REPRODUCIBILITY_LEVEL": "B",
       "INPUT_AVAILABILITY": "SUMMARY_ONLY",
       "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
-      "LIMITATIONS": "No authorized numeric tolerance; outcome is INCONCLUSIVE."
+      "LIMITATIONS": "No authorized numeric tolerance; outcome is INCONCLUSIVE.",
+      "PUBLIC_PATH": "results/transformation_robustness/summary.csv",
+      "PUBLIC_REPRODUCIBILITY_LEVEL": "B",
+      "RELEASED_SHA256": "8f8e0eab6366686292a8a5f6dde72e44675a1c3fa7b0dde3b156837bbbf04b1b",
+      "SCIENTIFIC_CLAIM": "TRANSFORM_ROBUSTNESS",
+      "SOURCES": [
+        {
+          "SOURCE_GIT_BLOB_OR_SHA256": "7e1e7b7cc6f0c3a63855e960f6b461ea31e6bb13",
+          "SOURCE_PATH": "repro/TRANSFORM_ROBUSTNESS_30_REPORT.md",
+          "SOURCE_REVISION": "498d4b25446003260d9367c10b1fdb27eb9988a1"
+        }
+      ]
+    },
+    {
+      "ARTIFACT_TYPE": "CODE",
+      "INPUT_AVAILABILITY": "NOT_APPLICABLE",
+      "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
+      "LIMITATIONS": "Independently authored package support file.",
+      "PUBLIC_PATH": "scripts/build_manifest.py",
+      "PUBLIC_REPRODUCIBILITY_LEVEL": "NOT_A_SCIENTIFIC_RESULT",
+      "RELEASED_SHA256": "10ac7ee5b2a68d966d93d22d61382079eb2d2dcb8b322adac02965621d005f1b",
+      "SCIENTIFIC_CLAIM": "PACKAGE_SUPPORT",
+      "SOURCES": []
+    },
+    {
+      "ARTIFACT_TYPE": "CODE",
+      "INPUT_AVAILABILITY": "NOT_APPLICABLE",
+      "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
+      "LIMITATIONS": "Independently authored package support file.",
+      "PUBLIC_PATH": "scripts/test_negative_mutations.py",
+      "PUBLIC_REPRODUCIBILITY_LEVEL": "NOT_A_SCIENTIFIC_RESULT",
+      "RELEASED_SHA256": "cf64a7c9a747215e487c7074b8e6bff55fa3c33d91c7e8c28a385e8bbafa57f9",
+      "SCIENTIFIC_CLAIM": "PACKAGE_SUPPORT",
+      "SOURCES": []
+    },
+    {
+      "ARTIFACT_TYPE": "CODE",
+      "INPUT_AVAILABILITY": "NOT_APPLICABLE",
+      "LICENSE_STATUS": "NO_LICENSE_GRANTED_PENDING_CONTRIBUTOR_APPROVAL",
+      "LIMITATIONS": "Independently authored package support file.",
+      "PUBLIC_PATH": "scripts/verify_release.py",
+      "PUBLIC_REPRODUCIBILITY_LEVEL": "NOT_A_SCIENTIFIC_RESULT",
+      "RELEASED_SHA256": "aa50ab0ccdeb6135cd579164db16b11f971a0010b8841f3e6ff7572e2b8987b0",
+      "SCIENTIFIC_CLAIM": "PACKAGE_SUPPORT",
+      "SOURCES": []
     }
-  ]
+  ],
+  "hash_algorithm": "SHA-256",
+  "manifested_file_count": 25,
+  "no_unmanifested_tracked_files": true,
+  "non_circular_exclusions": [
+    "provenance/artifact_manifest.json"
+  ],
+  "schema_version": "2.0",
+  "tracked_file_count_including_manifest": 26
 }

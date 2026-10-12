@@ -15,9 +15,48 @@
     "canonical_snapshot_path": "repro/level-max/CANONICAL_STATE_SNAPSHOT_d855949898275847de290806da075d0fe7efe3f9f4ad320553a2891338f079cf.json",
     "canonical_snapshot_git_blob": "1f2f7566e942f8b0e325824d10181f4f4c785fd5"
   },
-  "model_source_deviation": {
-    "repository": "sd2-community/stable-diffusion-2-1-base",
-    "revision": "4e63672c03103b6c636b8fb4119ba982469b2955"
+  "verified_source_manifests": [
+    {
+      "path": "repro/MODEL_MANIFEST.md",
+      "git_blob": "2dfdbc4a9ab40c0b7715d253ee1c1f5deb39f0b9"
+    },
+    {
+      "path": "repro/REMAINING_CLAIMS_MODEL_MANIFEST.md",
+      "git_blob": "4acd3b75d5b625f80017597233d89abda4ce6be3"
+    }
+  ],
+  "verified_model_and_dataset_revisions": {
+    "stable_diffusion": {
+      "repository": "sd2-community/stable-diffusion-2-1-base",
+      "revision": "4e63672c03103b6c636b8fb4119ba982469b2955",
+      "variant": "fp16",
+      "qualification": "hash-verified community-mirror source substitution"
+    },
+    "caption_model": {
+      "repository": "Salesforce/blip2-flan-t5-xl",
+      "revision": "0eb0d3b46c14c1f8c7680bca2693baafdb90bb28"
+    },
+    "fine_tuned_sentence_embedding": {
+      "repository": "kasraarabi/finetuned-caption-embedding",
+      "revision": "1f155d6a17f7a176d7d269f7ec04bcfa376ce297"
+    },
+    "original_sentence_embedding": {
+      "repository": "sentence-transformers/paraphrase-mpnet-base-v2",
+      "revision": "6cc9279c672dc57f94445ef259b28a1b736fec8f"
+    },
+    "clip": {
+      "repository": "openai/clip-vit-base-patch32",
+      "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268"
+    },
+    "prompt_dataset": {
+      "repository": "Gustavosta/Stable-Diffusion-Prompts",
+      "revision": "d816d4a05cb89bde39dd99284c459801e1e7e69a",
+      "verified_split_sizes": {"train": 73718, "test": 8192}
+    },
+    "coco_captions": {
+      "status": "UNRESOLVED",
+      "reason": "The source expects fid_outputs/coco/meta_data.json; release, configuration, split and ordering are unspecified."
+    }
   }
 }
 

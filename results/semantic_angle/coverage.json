@@ -3,8 +3,10 @@
   "selected_records": 549,
   "configured_bins": 30,
   "populated_bins": 27,
+  "empty_bin_ids": [1, 2, 3],
   "empty_intervals_degrees": ["[3,6)", "[6,9)", "[9,12)"],
-  "maximum_observed_angle_degrees": 89.910995,
+  "minimum_observed_angle_degrees": 0.0,
+  "maximum_observed_angle_degrees": 89.91099548339844,
   "outcome": "INCONCLUSIVE",
   "reason": "Publication mapping and comparison rule remain unresolved."
 }
